@@ -56,7 +56,7 @@ export function AppShell({
       {/* Main area */}
       <div className="lg:pl-64">
         {/* Header */}
-        <header className="sticky top-0 z-30 flex h-14 items-center gap-4 border-b bg-card/80 backdrop-blur-md px-4 sm:px-6">
+        <header className="sticky top-0 z-30 flex min-h-14 flex-wrap items-center gap-4 border-b bg-card/80 backdrop-blur-md px-4 sm:px-6 py-2">
           <Button variant="ghost" size="icon" className="lg:hidden" onClick={() => setSidebarOpen(true)}>
             <PanelLeft className="h-5 w-5" />
           </Button>
